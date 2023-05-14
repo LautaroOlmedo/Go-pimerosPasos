@@ -9,7 +9,7 @@ func FunctionsIII(nums... int) (sum int){
 	return
 }
 
-func FunctionsIII2(initialValue int, nums... int) (sum int){ // PODEMOS AGREGAR UN VALOR INICIAL 
+func FunctionsIII2(initialValue int, nums... int) (sum int){ // PODEMOS AGREGAR UN VALOR INICIAL. EL PARÁMETRO VARIÁDICO VA SIEMPRE AL FINAL (nums...)
 	sum = initialValue
 	for _, val := range nums{
 		sum = sum + val
