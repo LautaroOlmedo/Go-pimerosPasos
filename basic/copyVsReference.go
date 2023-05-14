@@ -22,6 +22,6 @@ func CopyVsReference(){
 // }
 
 func mtsInFeets2(stature *float32){ // ---> Por puntero
-	fmt.Println("stature, COPY", stature) // Dirección2. No lleva & ya que es un puntero. Dirección2. Será igual a Dirección1 ya que recibe el mismo espacio en memoria gracias al puntero. No tiene return porque es un puntero. Modifica ese espacio en memoria
+	fmt.Println("stature, COPY", stature) // Dirección2. No lleva & ya que es un puntero. Dirección2. Será igual a Dirección1 ya que recibe el mismo espacio en memoria gracias al puntero. No tiene return porque es un puntero, escribe directamente en ese espacio de memoria
 	*stature = *stature * 3.28
 }
