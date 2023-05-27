@@ -3,7 +3,7 @@ package basic
 import "fmt"
 
 func MapsI(){
-	var daysOfWeek = make(map[string]uint8) // ---> Los mapas no están ordenados
+	var daysOfWeek = make(map[string]uint8) // ---> Los maps no están ordenados
 
 	daysOfWeek["Mondai"] = 1
 	daysOfWeek["Tuesday"] = 2

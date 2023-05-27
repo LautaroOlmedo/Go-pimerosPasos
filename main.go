@@ -1,13 +1,11 @@
 package main
 
+//"fmt"
 import (
 	"firstSteps/basic"
-	//"fmt"
 )
 
-func main(){
-	
-	basic.StringsIII()
 
-	
+func main(){
+	basic.PanicAndRecover()
 }
