@@ -7,5 +7,5 @@ import (
 
 
 func main(){
-	basic.PanicAndRecover()
+	basic.ChannelsII()
 }
